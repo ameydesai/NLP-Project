@@ -1,5 +1,5 @@
-input_dir = "./input/*.txt"
-gold_dir = "./gold/*.gold"
+input_dir = "../input/*.txt"
+gold_dir = "../gold/*.gold"
 import glob
 from itertools import tee, islice
 from collections import Counter
